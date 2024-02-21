@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <script src="./JS/index.js" defer></script>
+    <title>Traffic Light</title>
+  </head>
+  <body>
+    <section class="container">
+      <div class="traffic-light">
+        <div id="light-1"></div>
+        <div id="light-2"></div>
+        <div id="light-3"></div>
+      </div>
+      <div class="button">
+        <button id="start-btn" onclick="start()">Press Start</button>
+
+        <audio id="audio">
+          <source src="audios/sonar-ping-95840.mp3" type="audio/mp3" />
+          Seu navegador não suporta a tag de áudio.
+        </audio>
+        <audio id="last-audio">
+          <source src="audios/achive-sound-132273.mp3" type="audio/mp3" />
+          Seu navegador não suporta a tag de áudio.
+        </audio>
+      </div>
+    </section>
+  </body>
+</html>
